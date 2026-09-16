@@ -48,11 +48,16 @@ and how to verify it.
 7. **Cite every screen you mention** as a markdown link to its
    `mobbin_url`. When the user wants to save, export, embed or paste a
    result (Figma, Notion, docs, slides), download from `image_url`.
-8. **Mind the context.** Default limits are generous; use `limit: 5–10` for
-   flows and `10–20` for screens, and page (`page: 2, 3…`) instead of
-   asking for 30 at once. Use `mode: "deep"` for nuanced or semantic asks,
-   `mode: "standard"` for quick, literal lookups.
-9. **Research, don't harvest.** Every search answers a named question from
+8. **Mind the context.** Every flow returns a preview per screen (4 flows
+   ≈ 20 images), so use `limit: 3–4` for flows, `8–12` for screens and
+   `6–10` for sections, and page (`page: 2, 3…`, or `exclude_screen_ids`
+   for screens) instead of asking for 30 at once. Use `mode: "deep"` for
+   nuanced or semantic asks, `mode: "standard"` for quick, literal lookups.
+9. **Expect drift and repeats.** Section and screen results can include the
+   same product twice or an adjacent concept (a "chat mockup hero" query
+   also returns AI-feature sections). Dedupe by `id`, discard drift by
+   looking at the image, and run a second phrasing before paging.
+10. **Research, don't harvest.** Every search answers a named question from
    the current task. Sweeping the catalog to build a dataset is not
    research and is against Mobbin's terms.
 
