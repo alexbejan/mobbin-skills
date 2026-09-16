@@ -43,7 +43,7 @@ sign in with your Mobbin account. `mobbin-research` needs it;
 
 > Study how the best fitness coaching apps do onboarding on iOS, then spec ours.
 
-> Make the Vorti landing page. Research hero and pricing sections on Mobbin first.
+> Make the landing page for my product. Research hero and pricing sections on Mobbin first.
 
 > Make this screen better. *(paste a screenshot or a mobbin.com link)*
 

@@ -83,7 +83,7 @@ and how to verify it.
 
 | Scenario | Reference |
 |---|---|
-| Build an app or a site from scratch ("build me a habit tracker", "make the Vorti landing page") | [references/build-from-scratch.md](references/build-from-scratch.md) |
+| Build an app or a site from scratch ("build me a habit tracker", "make the landing page for my product") | [references/build-from-scratch.md](references/build-from-scratch.md) |
 | Make an existing screen, page or section better | [references/improve-a-screen.md](references/improve-a-screen.md) |
 | Flow research, section research, general study discipline | [references/research-methods.md](references/research-methods.md) |
 
